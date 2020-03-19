@@ -1,0 +1,54 @@
+Exercises by hand :
+
+1)  Consider the following if…then logic:
+                 if(age > 65) socialSecurityStatus = "eligible";
+                  else socialSecurityStatus = "ineligible";
+
+                 Rewrite this (pseudo) code using the Java ternary operator. 
+
+Solution:
+
+socialSecurityStaus = (age>65) ? "eligible" : "ineligible"
+
+2)  Suppose a String s is initialized by
+       String s = "a friendly face";
+
+                a. Compute the value of the expression
+         s.charAt(2);
+                b. What is the value of
+         s.length()?
+                c. What is the value of
+         s.substring(2,9)?
+         s.substring(4)?
+
+Solution:
+
+a. f
+b. 15
+c. friendl
+d. iendly face
+
+3) Write a Java expression that computes each of the following:
+               a. Given the radius r of a circle, compute the area of the circle, and store it in a
+                   variable A.
+               b. Given the length len and width wid of a rectangle, compute the length of the
+                   diagonal of the rectangle, and store it in a variable diag.
+
+Solution:
+
+a. double A = (Math.PI*Math.pow(r, 2));
+
+b. double leng = Math.sqrt(Math.pow(len, 2) + Math.pow(wid, 2))
+
+
+4) You are reviewing some old Java programs in your company's IT department and you
+               read the following assignment statement in some abandoned code:
+       int a = (b = 5);
+               Is the statement legal (i.e. would it compile)? If so, what value is assigned to the
+               variable a? Explain.
+
+Solutuion:
+
+Yes, It is legal (i.e. it will compile) under one condition that variable b should be initialized (i.e. int b) then
+variable a will be assigned as 5. 
+
